@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: lightblue;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+#image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  transition: all 1s ease-in-out;
+}
+
+.btn-group {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+}
+
+.btn {
+  background-color: rgba(202, 202, 202, 0.301);
+  backdrop-filter: blur(50px);
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.28s ease-in-out;
+  outline: none;
+}
+
+.previous-btn {
+  margin-left: -10px;
+  border-radius: 0 60px 60px 0;
+}
+
+.next-btn {
+  margin-right: -10px;
+  border-radius: 60px 0 0 60px;
+}
+
+.previous-btn svg,
+.next-btn svg {
+  width: 45px;
+  height: 45px;
+  fill: white;
+  transition: all 0.28s ease-in-out;
+}
+
+.btn:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.btn:hover svg {
+  fill: rgb(56, 56, 56);
+}
