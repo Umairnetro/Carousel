@@ -66,6 +66,15 @@ body {
   transition: all 0.28s ease-in-out;
 }
 
+.btn:nth-child(1):hover {
+  margin-left: -5px;
+}
+
+
+.btn:nth-child(2):hover {
+  margin-right: -5px;
+}
+
 .btn:hover {
   background-color: rgb(255, 255, 255);
 }
