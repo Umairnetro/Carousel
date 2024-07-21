@@ -11,6 +11,8 @@ let placeNames = [
   "Byodo-In Temple",
   "Catedral de la Inmaculada Concepción",
   "Germany Small Town",
+  "Flatiron Building",
+  "Epcot",
   "Natural History Museum",
 ];
 
