@@ -30,10 +30,10 @@ function showNext() {
   image.classList.add("fade");
   heading.classList.add("heading-fade");
   setTimeout(() => {
-      image.setAttribute("src", displayImages[currentIndex]);
-      image.classList.remove("fade");
-      heading.classList.remove("heading-fade");
-      heading.innerHTML = placeNames[currentIndex];
+    image.setAttribute("src", displayImages[currentIndex]);
+    image.classList.remove("fade");
+    heading.classList.remove("heading-fade");
+    heading.innerHTML = placeNames[currentIndex];
   }, 400);
 }
 
