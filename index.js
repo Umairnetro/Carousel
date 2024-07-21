@@ -18,15 +18,19 @@ function showNext() {
   currentIndex = (currentIndex + 1) % displayImages.length;
   image.classList.add("fade");
   setTimeout(() => {
-      image.setAttribute("src", displayImages[currentIndex]);
-      image.classList.remove("fade");
-    }, 4000);
+    image.setAttribute("src", displayImages[currentIndex]);
+    image.classList.remove("fade");
+  }, 400);
 }
 
 function showprevious() {
   currentIndex =
     (currentIndex - 1 + displayImages.length) % displayImages.length;
-  image.setAttribute("src", displayImages[currentIndex]);
+  image.classList.add("fade");
+  setTimeout(() => {
+    image.setAttribute("src", displayImages[currentIndex]);
+    image.classList.remove("fade");
+  }, 600);
 }
 
 previousBtn.addEventListener("click", showprevious);
