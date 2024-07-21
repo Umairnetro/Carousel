@@ -70,7 +70,6 @@ body {
   margin-left: -5px;
 }
 
-
 .btn:nth-child(2):hover {
   margin-right: -5px;
 }
@@ -83,6 +82,6 @@ body {
   fill: rgb(56, 56, 56);
 }
 
-.fade{
+.fade {
   opacity: 0;
 }
