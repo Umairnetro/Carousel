@@ -73,3 +73,7 @@ body {
 .btn:hover svg {
   fill: rgb(56, 56, 56);
 }
+
+.fade{
+  opacity: 0.5;
+}

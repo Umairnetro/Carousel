@@ -16,7 +16,11 @@ let currentIndex = 0;
 image.setAttribute("src", displayImages[0]);
 function showNext() {
   currentIndex = (currentIndex + 1) % displayImages.length;
-  image.setAttribute("src", displayImages[currentIndex]);
+  image.classList.add("fade");
+  setTimeout(() => {
+      image.setAttribute("src", displayImages[currentIndex]);
+      image.classList.remove("fade");
+    }, 4000);
 }
 
 function showprevious() {
