@@ -1,3 +1,10 @@
+const loader = document.querySelector("#loader");
+
+// DOM Loaded
+document.addEventListener("DOMContentLoaded", () => {
+    loader.style.display = "none";
+});
+
 let displayImages = [
   "https://images.unsplash.com/photo-1464817739973-0128fe77aaa1?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   "https://images.unsplash.com/photo-1504037738139-b281049f760e?q=80&w=1594&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
